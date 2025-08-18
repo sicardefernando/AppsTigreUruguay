@@ -16,9 +16,12 @@ namespace AppsTigreUruguay.Areas.MapeoSobrestock.Controllers
         [HttpPost]
         public IActionResult Login(string usuario, string clave)
         {
-            if (UsuarioManager.ValidarLogin(usuario, clave))
+            // Normalizamos a minúsculas
+            var usuarioNormalizado = usuario?.Trim().ToLowerInvariant();
+
+            if (UsuarioManager.ValidarLogin(usuarioNormalizado, clave))
             {
-                HttpContext.Session.SetString("UsuarioMapeoSobrestock", usuario);
+                HttpContext.Session.SetString("UsuarioMapeoSobrestock", usuarioNormalizado);
                 return RedirectToAction("Index", "Home");
             }
 
@@ -35,13 +38,16 @@ namespace AppsTigreUruguay.Areas.MapeoSobrestock.Controllers
         [HttpPost]
         public IActionResult Registrar(string usuario, string clave)
         {
-            if (UsuarioManager.UsuarioExiste(usuario))
+            // Normalizamos a minúsculas
+            var usuarioNormalizado = usuario?.Trim().ToLowerInvariant();
+
+            if (UsuarioManager.UsuarioExiste(usuarioNormalizado))
             {
                 ViewBag.Error = "El usuario ya existe.";
                 return View();
             }
 
-            UsuarioManager.AgregarUsuario(usuario, clave);
+            UsuarioManager.AgregarUsuario(usuarioNormalizado, clave);
             return RedirectToAction("Login");
         }
 
