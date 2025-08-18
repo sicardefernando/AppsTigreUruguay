@@ -1,0 +1,113 @@
+﻿@model IEnumerable<AppsTigreUruguay.Areas.TrackingComercial.Models.ReporteDTO>
+
+@{
+    ViewBag.Title = "Reporte de Ventas";
+    var cliente = ViewBag.ClienteSeleccionado as string ?? "Ninguno";
+    int anioAnt = ViewBag.AnioAnt ?? 0;
+    int anioAct = ViewBag.AnioAct ?? 0;
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Reporte de crecimiento de ventas por producto</h1>
+
+    <form asp-action="Index" asp-controller="Reporte" method="post" class="mb-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-4">
+                <label for="cliente_filter" class="form-label">Filtrar cliente:</label>
+                <input type="text" id="cliente_filter" class="form-control" placeholder="Buscar cliente..." />
+            </div>
+            <div class="col-md-4">
+                <label for="cliente_select" class="form-label">Seleccionar cliente:</label>
+                <select name="cliente" asp-items="(SelectList)ViewBag.Clientes" id="cliente_select" class="form-select" size="5" required></select>
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary w-100">Generar reporte</button>
+            </div>
+        </div>
+    </form>
+
+    @if (Model != null && Model.Any())
+    {
+        <h2>Resultados para: <strong>@cliente</strong></h2>
+
+        <!-- Tabla visible en md+ -->
+        <div class="table-responsive d-none d-md-block">
+            <table class="table table-bordered table-hover mt-3">
+                <thead class="table-light">
+                    <tr>
+                        <th>Producto</th>
+                        <th>Ventas <span id="anioAnt"></span></th>
+                        <th>Ventas <span id="anioAct"></span></th>
+                        <th>% Crecimiento</th>
+                    </tr>
+                    <script>
+                        const anio = new Date().getFullYear();
+                        document.getElementById('anioAnt').textContent = anio - 1;
+                        document.getElementById('anioAct').textContent = anio;
+                    </script>
+                </thead>
+                <tbody>
+                    @foreach (var fila in Model)
+                    {
+                        var clase = fila.Producto.Contains("TOTALES") ? "table-secondary fw-bold" : "";
+                        var porcentajeClass = fila.Porcentaje > 0 ? "text-success" : (fila.Porcentaje < 0 ? "text-danger" : "text-muted");
+                        <tr class="@clase">
+                            <td>@Html.Raw(fila.Producto)</td>
+                            <td>@String.Format("{0:N2}", fila.VentasAnioAnterior)</td>
+                            <td>@String.Format("{0:N2}", fila.VentasAnioActual)</td>
+                            <td class="@porcentajeClass">@fila.Porcentaje %</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Cards visibles en xs-sm -->
+        <div class="d-block d-md-none">
+            @foreach (var fila in Model)
+            {
+                var porcentajeClass = fila.Porcentaje > 0 ? "text-success" : (fila.Porcentaje < 0 ? "text-danger" : "text-muted");
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.Raw(fila.Producto)</h5>
+                        <p class="card-text mb-1"><strong>Ventas <span class="anioAnt"></span>:</strong> @String.Format("{0:N2}", fila.VentasAnioAnterior)</p>
+                        <p class="card-text mb-1"><strong>Ventas <span class="anioAct"></span>:</strong> @String.Format("{0:N2}", fila.VentasAnioActual)</p>
+                        <p class="card-text mb-0"><strong>% Crecimiento:</strong> <span class="@porcentajeClass">@fila.Porcentaje %</span></p>
+                    </div>
+                </div>
+                <script>
+                    const anioActual = new Date().getFullYear();
+                    document.querySelectorAll('.anioAnt').forEach(el => el.textContent = anioActual - 1);
+                    document.querySelectorAll('.anioAct').forEach(el => el.textContent = anioActual);
+                </script>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No hay datos para mostrar.</p>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        const filterInput = document.getElementById('cliente_filter');
+        const select = document.getElementById('cliente_select');
+
+        filterInput.addEventListener('input', () => {
+            const filter = filterInput.value.toLowerCase();
+            let hasVisible = false;
+            for (let i = 0; i < select.options.length; i++) {
+                const option = select.options[i];
+                const text = option.text.toLowerCase();
+                if (text.includes(filter)) {
+                    option.style.display = '';
+                    hasVisible = true;
+                } else {
+                    option.style.display = 'none';
+                }
+            }
+            select.style.display = hasVisible ? 'block' : 'none';
+        });
+    </script>
+}

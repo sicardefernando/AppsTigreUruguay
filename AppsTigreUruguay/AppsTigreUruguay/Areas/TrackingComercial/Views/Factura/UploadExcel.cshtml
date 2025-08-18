@@ -1,0 +1,132 @@
+﻿@{
+    ViewBag.Title = "Cargar Excel";
+}
+
+
+<h2 class="mb-4">Cargar Excel</h2>
+
+<div class="mb-3">
+    <input type="file" id="excelFile" accept=".xlsx" class="form-control" />
+</div>
+
+<div class="mb-3 d-flex gap-2 flex-wrap">
+    <button id="procesarBtn" type="button" class="btn btn-primary">Procesar Excel</button>
+    <button id="enviarBtn" type="button" class="btn btn-success" disabled>Enviar al servidor</button>
+</div>
+
+<div id="estado" class="mb-3 fw-bold"></div>
+
+<pre id="output" class="p-3 border rounded" style="max-height: 300px; overflow-y: auto; background-color: #f9f9f9;"></pre>
+
+<script>
+    let jsonData = [];
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const estado = document.getElementById("estado");
+        const procesarBtn = document.getElementById("procesarBtn");
+        const enviarBtn = document.getElementById("enviarBtn");
+        const fileInput = document.getElementById("excelFile");
+
+        const workerBlob = new Blob([`
+            self.importScripts('https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js');
+            self.onmessage = function (e) {
+                try {
+                    const { data, sheetName } = e.data;
+                    const workbook = XLSX.read(data, { type: 'array' });
+                    const sheet = workbook.Sheets[sheetName];
+
+                    if (!sheet) {
+                        self.postMessage({ error: "No se encontró la hoja '" + sheetName + "'" });
+                        return;
+                    }
+
+                    const rawData = XLSX.utils.sheet_to_json(sheet, { defval: "" });
+
+                    const jsonData = rawData.map(row => ({
+                        AnioMes: row["MesAJ"],
+                        Producto: row["LE"],
+                        Cliente: row["CLIENTE2"],
+                        Venta: row["PRECIO USD"]
+                    }));
+
+                    self.postMessage({ jsonData });
+                } catch (err) {
+                    self.postMessage({ error: err.message });
+                }
+            };
+        `], { type: 'application/javascript' });
+
+        const worker = new Worker(URL.createObjectURL(workerBlob));
+
+        procesarBtn.addEventListener('click', function () {
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert("Seleccioná un archivo Excel");
+                return;
+            }
+
+            estado.textContent = "Procesando archivo...";
+            procesarBtn.disabled = true;
+            enviarBtn.disabled = true;
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const data = new Uint8Array(e.target.result);
+                worker.postMessage({
+                    data: data,
+                    sheetName: "BASE FACTURACION ORACLE"
+                });
+            };
+            reader.readAsArrayBuffer(file);
+        });
+
+        worker.onmessage = function (event) {
+            if (event.data.error) {
+                alert("Error: " + event.data.error);
+                estado.textContent = "";
+                procesarBtn.disabled = false;
+                return;
+            }
+
+            jsonData = event.data.jsonData;
+            document.getElementById('output').textContent = JSON.stringify(jsonData.slice(0, 100), null, 2);
+            estado.textContent = `Archivo procesado correctamente. ${jsonData.length} filas cargadas.`;
+            enviarBtn.disabled = false;
+            procesarBtn.disabled = false;
+        };
+
+        enviarBtn.addEventListener("click", async function () {
+            if (jsonData.length === 0) {
+                alert("No hay datos procesados para enviar.");
+                return;
+            }
+
+            estado.textContent = "Enviando datos al servidor...";
+            enviarBtn.disabled = true;
+
+            try {
+                const response = await fetch('@Url.Action("GuardarFacturas", "Factura")', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(jsonData)
+                });
+
+                if (!response.ok) {
+                    const error = await response.text();
+                    throw new Error(error);
+                }
+
+                const result = await response.text();
+                alert(result);
+                estado.textContent = "Datos enviados correctamente.";
+            } catch (error) {
+                console.error(error);
+                alert("Error al enviar los datos al servidor.");
+                estado.textContent = "Error al enviar.";
+            } finally {
+                enviarBtn.disabled = false;
+            }
+        });
+    });
+</script>

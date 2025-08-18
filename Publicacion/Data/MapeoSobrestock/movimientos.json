@@ -1,0 +1,2546 @@
+[
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T21:10:25.8951814-03:00",
+    "Detalle": "C\u00F3digo: 65656565, Ubicaci\u00F3n: A-0-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:30:22.401275-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:30:49.7766361-03:00",
+    "Detalle": "C\u00F3digo: 7327, Ubicaci\u00F3n: D-1-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:35:27.0146269-03:00",
+    "Detalle": "C\u00F3digo: 7327654, Ubicaci\u00F3n: B-0-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:36:09.3120841-03:00",
+    "Detalle": "C\u00F3digo: 7327654, Ubicaci\u00F3n: B-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:44:37.7717147-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:44:57.3969204-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:45:05.4907915-03:00",
+    "Detalle": "C\u00F3digo: 12345555, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:45:11.131482-03:00",
+    "Detalle": "C\u00F3digo: 12345555, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:45:40.0850086-03:00",
+    "Detalle": "C\u00F3digo: 7327654, Ubicaci\u00F3n: D-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:45:51.1007488-03:00",
+    "Detalle": "C\u00F3digo: 7327654, Ubicaci\u00F3n: D-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:46:19.3823431-03:00",
+    "Detalle": "C\u00F3digo: 7327654, Ubicaci\u00F3n: B-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:46:38.8825767-03:00",
+    "Detalle": "C\u00F3digo: 73271654, Ubicaci\u00F3n: B-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:47:42.8990156-03:00",
+    "Detalle": "C\u00F3digo: 4543223, Ubicaci\u00F3n: E-1-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-28T22:52:05.6367533-03:00",
+    "Detalle": "C\u00F3digo: 4543223, Ubicaci\u00F3n: E-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T08:32:16.6401148-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: C-0-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T08:32:17.077626-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: C-0-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T08:32:20.874524-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: C-0-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:31:08.0908672-03:00",
+    "Detalle": "C\u00F3digo: 765432, Ubicaci\u00F3n: C-4-8"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:31:45.3413452-03:00",
+    "Detalle": "C\u00F3digo: 7425133309, Ubicaci\u00F3n: C-2-3"
+  },
+  {
+    "Usuario": "Invitado",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:35:25.6097269-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: C-0-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:18.0962621-03:00",
+    "Detalle": "C\u00F3digo: 999999999, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:19.8150317-03:00",
+    "Detalle": "C\u00F3digo: 888888, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:21.0337909-03:00",
+    "Detalle": "C\u00F3digo: 7777777, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:22.2681885-03:00",
+    "Detalle": "C\u00F3digo: 6666666, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:23.5494467-03:00",
+    "Detalle": "C\u00F3digo: 55555555, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:24.6744638-03:00",
+    "Detalle": "C\u00F3digo: 4444444, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:26.0807507-03:00",
+    "Detalle": "C\u00F3digo: 33333333, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:27.361998-03:00",
+    "Detalle": "C\u00F3digo: 22222222, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:28.59639-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:29.580776-03:00",
+    "Detalle": "C\u00F3digo: 112111111, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:38:30.8151575-03:00",
+    "Detalle": "C\u00F3digo: 1000000, Ubicaci\u00F3n: D-2-10"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:39:49.7536573-03:00",
+    "Detalle": "C\u00F3digo: 78787788, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:39:53.8318318-03:00",
+    "Detalle": "C\u00F3digo: 8765433, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:39:58.1912627-03:00",
+    "Detalle": "C\u00F3digo: 99992222, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:41:22.3955035-03:00",
+    "Detalle": "C\u00F3digo: 12062003, Ubicaci\u00F3n: A-1-11"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T09:46:04.5239642-03:00",
+    "Detalle": "C\u00F3digo: 1203, Ubicaci\u00F3n: E-3-6"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T10:21:20.2847177-03:00",
+    "Detalle": "C\u00F3digo: 6789554, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T10:21:39.0505572-03:00",
+    "Detalle": "C\u00F3digo: 6789554, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T10:21:47.5975653-03:00",
+    "Detalle": "C\u00F3digo: 6789554, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T10:21:53.7226447-03:00",
+    "Detalle": "C\u00F3digo: 6789554, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T10:22:01.4102508-03:00",
+    "Detalle": "C\u00F3digo: 6789554, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T10:22:07.3634118-03:00",
+    "Detalle": "C\u00F3digo: 6789554, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T10:22:29.5355579-03:00",
+    "Detalle": "C\u00F3digo: 126, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T10:24:26.2870255-03:00",
+    "Detalle": "C\u00F3digo: 126, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T11:36:09.5651521-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T11:36:25.7372368-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T11:45:46.1191578-03:00",
+    "Detalle": "C\u00F3digo: 6435243, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-29T11:46:01.4787209-03:00",
+    "Detalle": "C\u00F3digo: 6435243, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T15:07:28.9532186-03:00",
+    "Detalle": "C\u00F3digo: 21456, Ubicaci\u00F3n: B-0-4"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-29T16:28:18.1405179-03:00",
+    "Detalle": "C\u00F3digo: 22322290, Ubicaci\u00F3n: C-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-30T13:38:34.1324599-03:00",
+    "Detalle": "C\u00F3digo: 66666, Ubicaci\u00F3n: B-0-5"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-30T13:39:40.4301332-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: D-0-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-30T16:34:32.7454351-03:00",
+    "Detalle": "C\u00F3digo: 12345, Ubicaci\u00F3n: A-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-31T09:04:46.3546097-03:00",
+    "Detalle": "C\u00F3digo: 2222, Ubicaci\u00F3n: C-0-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-31T10:23:39.4619831-03:00",
+    "Detalle": "C\u00F3digo: 6382468, Ubicaci\u00F3n: E-1-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-31T10:24:27.6188077-03:00",
+    "Detalle": "C\u00F3digo: 12345321, Ubicaci\u00F3n: B-0-4"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-31T10:25:08.0255249-03:00",
+    "Detalle": "C\u00F3digo: 1234221, Ubicaci\u00F3n: B-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-07-31T10:43:34.179842-03:00",
+    "Detalle": "C\u00F3digo: 7327654, Ubicaci\u00F3n: B-0-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-31T10:43:39.7111537-03:00",
+    "Detalle": "C\u00F3digo: 273849, Ubicaci\u00F3n: B-0-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-31T11:00:30.8489923-03:00",
+    "Detalle": "C\u00F3digo: 8373737, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-31T11:00:33.9896488-03:00",
+    "Detalle": "C\u00F3digo: 17266363648, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-07-31T13:59:05.0299189-03:00",
+    "Detalle": "C\u00F3digo: 7777, Ubicaci\u00F3n: B-1-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:17.4961351-03:00",
+    "Detalle": "C\u00F3digo: 65656565, Ubicaci\u00F3n: A-0-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:21.1680515-03:00",
+    "Detalle": "C\u00F3digo: 12345, Ubicaci\u00F3n: A-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:25.3087241-03:00",
+    "Detalle": "C\u00F3digo: 7425133306, Ubicaci\u00F3n: B-0-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:28.4181382-03:00",
+    "Detalle": "C\u00F3digo: 12345555, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:30.9337937-03:00",
+    "Detalle": "C\u00F3digo: 17266363648, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:33.0744612-03:00",
+    "Detalle": "C\u00F3digo: 7425133307, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:34.2619625-03:00",
+    "Detalle": "C\u00F3digo: 78787788, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:36.1995-03:00",
+    "Detalle": "C\u00F3digo: 8373737, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:37.6213853-03:00",
+    "Detalle": "C\u00F3digo: 8765433, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:39.4495236-03:00",
+    "Detalle": "C\u00F3digo: 99992222, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:42.949569-03:00",
+    "Detalle": "C\u00F3digo: 273849, Ubicaci\u00F3n: B-0-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:46.1059183-03:00",
+    "Detalle": "C\u00F3digo: 73271654, Ubicaci\u00F3n: B-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:49.7465335-03:00",
+    "Detalle": "C\u00F3digo: 12345321, Ubicaci\u00F3n: B-0-4"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:51.3715449-03:00",
+    "Detalle": "C\u00F3digo: 21456, Ubicaci\u00F3n: B-0-4"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:54.2934534-03:00",
+    "Detalle": "C\u00F3digo: 66666, Ubicaci\u00F3n: B-0-5"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:54:57.7310017-03:00",
+    "Detalle": "C\u00F3digo: 7425133308, Ubicaci\u00F3n: B-1-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:01.0904383-03:00",
+    "Detalle": "C\u00F3digo: 1234221, Ubicaci\u00F3n: B-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:03.8404479-03:00",
+    "Detalle": "C\u00F3digo: 7777, Ubicaci\u00F3n: B-1-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:15.2312052-03:00",
+    "Detalle": "C\u00F3digo: 12062003, Ubicaci\u00F3n: A-1-11"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:23.871995-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: C-0-5"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:27.4969815-03:00",
+    "Detalle": "C\u00F3digo: 2222, Ubicaci\u00F3n: C-0-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:31.2470229-03:00",
+    "Detalle": "C\u00F3digo: 232232, Ubicaci\u00F3n: C-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:35.0596363-03:00",
+    "Detalle": "C\u00F3digo: 123456, Ubicaci\u00F3n: C-0-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:38.4189898-03:00",
+    "Detalle": "C\u00F3digo: 22322290, Ubicaci\u00F3n: C-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:48.0441086-03:00",
+    "Detalle": "C\u00F3digo: 039485, Ubicaci\u00F3n: D-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:52.1222766-03:00",
+    "Detalle": "C\u00F3digo: 12345555, Ubicaci\u00F3n: D-0-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:55:55.2004418-03:00",
+    "Detalle": "C\u00F3digo: 7327, Ubicaci\u00F3n: D-1-0"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:56:06.0443189-03:00",
+    "Detalle": "C\u00F3digo: 9090909090, Ubicaci\u00F3n: E-1-9"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:56:10.3881242-03:00",
+    "Detalle": "C\u00F3digo: 1203, Ubicaci\u00F3n: E-3-6"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:56:13.2944033-03:00",
+    "Detalle": "C\u00F3digo: 4543223, Ubicaci\u00F3n: E-1-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:56:15.9975633-03:00",
+    "Detalle": "C\u00F3digo: 6382468, Ubicaci\u00F3n: E-1-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:56:19.1382366-03:00",
+    "Detalle": "C\u00F3digo: 7327, Ubicaci\u00F3n: E-0-2"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:56:22.2945107-03:00",
+    "Detalle": "C\u00F3digo: 4543223, Ubicaci\u00F3n: E-0-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:56:25.4508025-03:00",
+    "Detalle": "C\u00F3digo: 6789554, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-01T08:56:28.2008443-03:00",
+    "Detalle": "C\u00F3digo: 121212, Ubicaci\u00F3n: E-0-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:03:14.5772817-03:00",
+    "Detalle": "C\u00F3digo: 20215178, Ubicaci\u00F3n: A-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:03:33.4368987-03:00",
+    "Detalle": "C\u00F3digo: 20215178, Ubicaci\u00F3n: A-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:03:51.6871882-03:00",
+    "Detalle": "C\u00F3digo: 20215178, Ubicaci\u00F3n: A-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:04:17.8136113-03:00",
+    "Detalle": "C\u00F3digo: 29914818, Ubicaci\u00F3n: A-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:04:47.6743538-03:00",
+    "Detalle": "C\u00F3digo: 26032563, Ubicaci\u00F3n: A-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:05:00.9401498-03:00",
+    "Detalle": "C\u00F3digo: 26030455, Ubicaci\u00F3n: A-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:05:15.5814696-03:00",
+    "Detalle": "C\u00F3digo: 26038189, Ubicaci\u00F3n: A-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:05:38.1916788-03:00",
+    "Detalle": "C\u00F3digo: 26036666, Ubicaci\u00F3n: A-0-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:05:58.6456952-03:00",
+    "Detalle": "C\u00F3digo: 29912769, Ubicaci\u00F3n: A-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:06:10.4583481-03:00",
+    "Detalle": "C\u00F3digo: 26030455, Ubicaci\u00F3n: A-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:06:26.3968673-03:00",
+    "Detalle": "C\u00F3digo: 29915334, Ubicaci\u00F3n: A-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:06:58.0379176-03:00",
+    "Detalle": "C\u00F3digo: 37056161, Ubicaci\u00F3n: A-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:07:10.3974776-03:00",
+    "Detalle": "C\u00F3digo: 37056158, Ubicaci\u00F3n: A-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:07:35.3835521-03:00",
+    "Detalle": "C\u00F3digo: 100017367, Ubicaci\u00F3n: A-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:08:08.3225334-03:00",
+    "Detalle": "C\u00F3digo: 10002886, Ubicaci\u00F3n: A-0-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:08:25.7928885-03:00",
+    "Detalle": "C\u00F3digo: 29918660, Ubicaci\u00F3n: A-0-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:08:38.3555624-03:00",
+    "Detalle": "C\u00F3digo: 26035686, Ubicaci\u00F3n: A-0-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:09:10.4188707-03:00",
+    "Detalle": "C\u00F3digo: 29915350, Ubicaci\u00F3n: A-0-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:09:26.904003-03:00",
+    "Detalle": "C\u00F3digo: 26038235, Ubicaci\u00F3n: A-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:09:46.9042597-03:00",
+    "Detalle": "C\u00F3digo: 29915342, Ubicaci\u00F3n: A-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:10:02.7638433-03:00",
+    "Detalle": "C\u00F3digo: 29911169, Ubicaci\u00F3n: A-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:10:18.624394-03:00",
+    "Detalle": "C\u00F3digo: 26030650, Ubicaci\u00F3n: A-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:10:31.7502396-03:00",
+    "Detalle": "C\u00F3digo: 26036666, Ubicaci\u00F3n: A-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:11:11.6269859-03:00",
+    "Detalle": "C\u00F3digo: 26050642, Ubicaci\u00F3n: A-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:11:23.9870241-03:00",
+    "Detalle": "C\u00F3digo: 26035112, Ubicaci\u00F3n: A-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:11:38.7840858-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: A-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:11:51.7842575-03:00",
+    "Detalle": "C\u00F3digo: 29912050, Ubicaci\u00F3n: A-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:12:06.4878113-03:00",
+    "Detalle": "C\u00F3digo: 29912556, Ubicaci\u00F3n: A-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:12:16.957266-03:00",
+    "Detalle": "C\u00F3digo: 20215070, Ubicaci\u00F3n: A-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:13:05.4108933-03:00",
+    "Detalle": "C\u00F3digo: 37056159, Ubicaci\u00F3n: A-0-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:13:17.0835984-03:00",
+    "Detalle": "C\u00F3digo: 37056160, Ubicaci\u00F3n: A-0-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:13:39.4131387-03:00",
+    "Detalle": "C\u00F3digo: 37056161, Ubicaci\u00F3n: A-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:13:54.9761385-03:00",
+    "Detalle": "C\u00F3digo: 37056162, Ubicaci\u00F3n: A-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:14:51.0089453-03:00",
+    "Detalle": "C\u00F3digo: 29913048, Ubicaci\u00F3n: A-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:15:00.7903105-03:00",
+    "Detalle": "C\u00F3digo: 29912041, Ubicaci\u00F3n: A-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:15:11.150052-03:00",
+    "Detalle": "C\u00F3digo: 29912041, Ubicaci\u00F3n: A-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:15:12.8690476-03:00",
+    "Detalle": "C\u00F3digo: 29913048, Ubicaci\u00F3n: A-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:15:28.4629935-03:00",
+    "Detalle": "C\u00F3digo: 29913048, Ubicaci\u00F3n: A-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:15:38.728829-03:00",
+    "Detalle": "C\u00F3digo: 29912041, Ubicaci\u00F3n: A-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:16:18.4961608-03:00",
+    "Detalle": "C\u00F3digo: 37056160, Ubicaci\u00F3n: A-0-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:16:33.0744926-03:00",
+    "Detalle": "C\u00F3digo: 26033675, Ubicaci\u00F3n: A-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:16:54.7946014-03:00",
+    "Detalle": "C\u00F3digo: 26035317, Ubicaci\u00F3n: A-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:17:10.6385759-03:00",
+    "Detalle": "C\u00F3digo: 26035317, Ubicaci\u00F3n: A-0-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:17:21.1720073-03:00",
+    "Detalle": "C\u00F3digo: 26035686, Ubicaci\u00F3n: A-0-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:17:37.0001871-03:00",
+    "Detalle": "C\u00F3digo: 26035040, Ubicaci\u00F3n: A-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:18:12.9701007-03:00",
+    "Detalle": "C\u00F3digo: 26037573, Ubicaci\u00F3n: A-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:18:26.3770944-03:00",
+    "Detalle": "C\u00F3digo: 26038189, Ubicaci\u00F3n: A-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T09:18:47.5806265-03:00",
+    "Detalle": "C\u00F3digo: 26035546, Ubicaci\u00F3n: A-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:00:36.7388118-03:00",
+    "Detalle": "C\u00F3digo: 37056160, Ubicaci\u00F3n: B-0-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:00:54.7391501-03:00",
+    "Detalle": "C\u00F3digo: 37056162, Ubicaci\u00F3n: B-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:01:04.2705406-03:00",
+    "Detalle": "C\u00F3digo: 37056161, Ubicaci\u00F3n: B-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:01:20.3961971-03:00",
+    "Detalle": "C\u00F3digo: 26031109, Ubicaci\u00F3n: B-0-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:01:42.0067657-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: B-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:02:07.9133583-03:00",
+    "Detalle": "C\u00F3digo: 29802866, Ubicaci\u00F3n: B-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:02:22.1642071-03:00",
+    "Detalle": "C\u00F3digo: 26035317, Ubicaci\u00F3n: B-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:02:32.2273098-03:00",
+    "Detalle": "C\u00F3digo: 26037875, Ubicaci\u00F3n: B-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:02:48.6337624-03:00",
+    "Detalle": "C\u00F3digo: 26031311, Ubicaci\u00F3n: B-0-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:02:59.3058378-03:00",
+    "Detalle": "C\u00F3digo: 29911819, Ubicaci\u00F3n: B-0-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:03:14.7125099-03:00",
+    "Detalle": "C\u00F3digo: 29912041, Ubicaci\u00F3n: B-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:03:33.8690081-03:00",
+    "Detalle": "C\u00F3digo: 29913056, Ubicaci\u00F3n: B-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:03:44.5254019-03:00",
+    "Detalle": "C\u00F3digo: 29913048, Ubicaci\u00F3n: B-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:03:54.6041792-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: B-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:04:25.8557317-03:00",
+    "Detalle": "C\u00F3digo: 29911568, Ubicaci\u00F3n: B-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:04:37.0902518-03:00",
+    "Detalle": "C\u00F3digo: 29801037, Ubicaci\u00F3n: B-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:04:54.7637592-03:00",
+    "Detalle": "C\u00F3digo: 29804060, Ubicaci\u00F3n: B-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:05:11.8738681-03:00",
+    "Detalle": "C\u00F3digo: 37056161, Ubicaci\u00F3n: B-0-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:05:27.81162-03:00",
+    "Detalle": "C\u00F3digo: 26030714, Ubicaci\u00F3n: B-1-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:05:43.7494376-03:00",
+    "Detalle": "C\u00F3digo: 29800464, Ubicaci\u00F3n: B-1-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:06:01.3433955-03:00",
+    "Detalle": "C\u00F3digo: 29915342, Ubicaci\u00F3n: B-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:06:10.4685183-03:00",
+    "Detalle": "C\u00F3digo: 26031311, Ubicaci\u00F3n: B-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:06:26.906474-03:00",
+    "Detalle": "C\u00F3digo: 29915342, Ubicaci\u00F3n: B-0-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:06:46.6728376-03:00",
+    "Detalle": "C\u00F3digo: 26035317, Ubicaci\u00F3n: B-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:07:04.8920579-03:00",
+    "Detalle": "C\u00F3digo: 26033748, Ubicaci\u00F3n: B-0-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:07:12.7837737-03:00",
+    "Detalle": "C\u00F3digo: 26031311, Ubicaci\u00F3n: B-0-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:07:31.4253037-03:00",
+    "Detalle": "C\u00F3digo: 29913048, Ubicaci\u00F3n: B-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:07:51.1606801-03:00",
+    "Detalle": "C\u00F3digo: 29912556, Ubicaci\u00F3n: B-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:08:04.7088402-03:00",
+    "Detalle": "C\u00F3digo: 26050642, Ubicaci\u00F3n: B-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:08:18.8033029-03:00",
+    "Detalle": "C\u00F3digo: 26038260, Ubicaci\u00F3n: B-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:08:33.506675-03:00",
+    "Detalle": "C\u00F3digo: 26033667, Ubicaci\u00F3n: B-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:08:56.5388363-03:00",
+    "Detalle": "C\u00F3digo: 29911819, Ubicaci\u00F3n: B-0-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:09:06.71092-03:00",
+    "Detalle": "C\u00F3digo: 29915342, Ubicaci\u00F3n: B-0-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:09:24.4616701-03:00",
+    "Detalle": "C\u00F3digo: 26031311, Ubicaci\u00F3n: B-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:09:40.8056212-03:00",
+    "Detalle": "C\u00F3digo: 40026428, Ubicaci\u00F3n: B-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:10:00.8059578-03:00",
+    "Detalle": "C\u00F3digo: 26037867, Ubicaci\u00F3n: B-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:10:12.8385419-03:00",
+    "Detalle": "C\u00F3digo: 29915326, Ubicaci\u00F3n: B-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:10:26.6199863-03:00",
+    "Detalle": "C\u00F3digo: 26033675, Ubicaci\u00F3n: B-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:10:37.6049474-03:00",
+    "Detalle": "C\u00F3digo: 26032016, Ubicaci\u00F3n: B-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:10:52.4644725-03:00",
+    "Detalle": "C\u00F3digo: 26035066, Ubicaci\u00F3n: B-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:11:03.7304972-03:00",
+    "Detalle": "C\u00F3digo: 100017375, Ubicaci\u00F3n: B-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-12T10:11:18.856449-03:00",
+    "Detalle": "C\u00F3digo: 26037573, Ubicaci\u00F3n: B-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:50:35.7966874-03:00",
+    "Detalle": "C\u00F3digo: 37050394, Ubicaci\u00F3n: C-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:51:16.1414301-03:00",
+    "Detalle": "C\u00F3digo: 37050003, Ubicaci\u00F3n: C-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:51:30.8291056-03:00",
+    "Detalle": "C\u00F3digo: 37050047, Ubicaci\u00F3n: C-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:51:39.9234884-03:00",
+    "Detalle": "C\u00F3digo: 37050009, Ubicaci\u00F3n: C-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:51:48.2674125-03:00",
+    "Detalle": "C\u00F3digo: 37050007, Ubicaci\u00F3n: C-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:52:02.8925907-03:00",
+    "Detalle": "C\u00F3digo: 37050003, Ubicaci\u00F3n: C-0-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:52:17.7990834-03:00",
+    "Detalle": "C\u00F3digo: 37050035, Ubicaci\u00F3n: C-0-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:52:33.7835751-03:00",
+    "Detalle": "C\u00F3digo: 37050023, Ubicaci\u00F3n: C-1-10"
+  },
+  {
+    "Usuario": "nicolas.ruotolo",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:52:46.2368476-03:00",
+    "Detalle": "C\u00F3digo: 10017368, Ubicaci\u00F3n: A-0-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:52:50.7997182-03:00",
+    "Detalle": "C\u00F3digo: 37050005, Ubicaci\u00F3n: C-0-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:53:05.9097223-03:00",
+    "Detalle": "C\u00F3digo: 37050017, Ubicaci\u00F3n: C-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:53:26.3787245-03:00",
+    "Detalle": "C\u00F3digo: 37056175, Ubicaci\u00F3n: C-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:53:34.3944601-03:00",
+    "Detalle": "C\u00F3digo: 37050007, Ubicaci\u00F3n: C-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:53:44.770191-03:00",
+    "Detalle": "C\u00F3digo: 37050003, Ubicaci\u00F3n: C-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:53:55.6621144-03:00",
+    "Detalle": "C\u00F3digo: 37050004, Ubicaci\u00F3n: C-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:54:03.1157598-03:00",
+    "Detalle": "C\u00F3digo: 37050006, Ubicaci\u00F3n: C-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:54:53.2437401-03:00",
+    "Detalle": "C\u00F3digo: 26037875, Ubicaci\u00F3n: B-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:55:46.4006473-03:00",
+    "Detalle": "C\u00F3digo: 37050003, Ubicaci\u00F3n: C-0-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:56:04.1827104-03:00",
+    "Detalle": "C\u00F3digo: 37050033, Ubicaci\u00F3n: C-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:56:11.8078101-03:00",
+    "Detalle": "C\u00F3digo: 37050024, Ubicaci\u00F3n: C-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:56:21.4173496-03:00",
+    "Detalle": "C\u00F3digo: 37050027, Ubicaci\u00F3n: C-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:56:49.4189644-03:00",
+    "Detalle": "C\u00F3digo: 37050009, Ubicaci\u00F3n: C-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:56:58.6222732-03:00",
+    "Detalle": "C\u00F3digo: 37050054, Ubicaci\u00F3n: C-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:57:09.7793205-03:00",
+    "Detalle": "C\u00F3digo: 37050020, Ubicaci\u00F3n: C-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:57:18.1855777-03:00",
+    "Detalle": "C\u00F3digo: 37050001, Ubicaci\u00F3n: C-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:57:32.2330662-03:00",
+    "Detalle": "C\u00F3digo: 37056175, Ubicaci\u00F3n: C-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:57:47.6714342-03:00",
+    "Detalle": "C\u00F3digo: 37050009, Ubicaci\u00F3n: C-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:57:58.1563105-03:00",
+    "Detalle": "C\u00F3digo: 37050051, Ubicaci\u00F3n: C-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:58:08.3126947-03:00",
+    "Detalle": "C\u00F3digo: 37050049, Ubicaci\u00F3n: C-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:58:17.0471922-03:00",
+    "Detalle": "C\u00F3digo: 37050019, Ubicaci\u00F3n: C-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:59:05.4232847-03:00",
+    "Detalle": "C\u00F3digo: 37050052, Ubicaci\u00F3n: C-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:59:13.2200508-03:00",
+    "Detalle": "C\u00F3digo: 37050006, Ubicaci\u00F3n: C-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T09:59:47.7842557-03:00",
+    "Detalle": "C\u00F3digo: 37056173, Ubicaci\u00F3n: C-0-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:00:05.050536-03:00",
+    "Detalle": "C\u00F3digo: 37050012, Ubicaci\u00F3n: C-1-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:00:14.7855086-03:00",
+    "Detalle": "C\u00F3digo: 37050048, Ubicaci\u00F3n: C-1-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:00:22.5827953-03:00",
+    "Detalle": "C\u00F3digo: 37050018, Ubicaci\u00F3n: C-1-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:00:29.6453843-03:00",
+    "Detalle": "C\u00F3digo: 37050017, Ubicaci\u00F3n: C-1-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:00:52.4902262-03:00",
+    "Detalle": "C\u00F3digo: 37050003, Ubicaci\u00F3n: C-0-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:01:14.0062483-03:00",
+    "Detalle": "C\u00F3digo: 37050050, Ubicaci\u00F3n: C-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:01:24.4126282-03:00",
+    "Detalle": "C\u00F3digo: 37050006, Ubicaci\u00F3n: C-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:01:31.9752135-03:00",
+    "Detalle": "C\u00F3digo: 37050003, Ubicaci\u00F3n: C-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:01:43.9909931-03:00",
+    "Detalle": "C\u00F3digo: 37050054, Ubicaci\u00F3n: C-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:02:05.0237599-03:00",
+    "Detalle": "C\u00F3digo: 37050063, Ubicaci\u00F3n: C-0-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:02:13.7426223-03:00",
+    "Detalle": "C\u00F3digo: 37050058, Ubicaci\u00F3n: C-0-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:02:23.5398862-03:00",
+    "Detalle": "C\u00F3digo: 37050007, Ubicaci\u00F3n: C-0-4"
+  },
+  {
+    "Usuario": "nicolas.ruotolo",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:02:31.3524845-03:00",
+    "Detalle": "C\u00F3digo: 26031249, Ubicaci\u00F3n: A-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:02:40.3995343-03:00",
+    "Detalle": "C\u00F3digo: 37050016, Ubicaci\u00F3n: C-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:02:54.5721626-03:00",
+    "Detalle": "C\u00F3digo: 37050051, Ubicaci\u00F3n: C-1-4"
+  },
+  {
+    "Usuario": "nicolas.ruotolo",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:02:57.4159533-03:00",
+    "Detalle": "C\u00F3digo: 26035872, Ubicaci\u00F3n: A-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:03:01.6034989-03:00",
+    "Detalle": "C\u00F3digo: 37050015, Ubicaci\u00F3n: C-1-4"
+  },
+  {
+    "Usuario": "nicolas.ruotolo",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:03:12.0413476-03:00",
+    "Detalle": "C\u00F3digo: 26031249, Ubicaci\u00F3n: A-1-8"
+  },
+  {
+    "Usuario": "nicolas.ruotolo",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:03:25.245016-03:00",
+    "Detalle": "C\u00F3digo: 26031249, Ubicaci\u00F3n: A-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:03:30.4017001-03:00",
+    "Detalle": "C\u00F3digo: 37050003, Ubicaci\u00F3n: C-0-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:03:53.0905288-03:00",
+    "Detalle": "C\u00F3digo: 37050010, Ubicaci\u00F3n: C-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:04:53.1552648-03:00",
+    "Detalle": "C\u00F3digo: 37050011, Ubicaci\u00F3n: C-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:05:06.0773724-03:00",
+    "Detalle": "C\u00F3digo: 37050002, Ubicaci\u00F3n: C-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:05:17.858714-03:00",
+    "Detalle": "C\u00F3digo: 37050017, Ubicaci\u00F3n: C-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:05:51.0476585-03:00",
+    "Detalle": "C\u00F3digo: 37050394, Ubicaci\u00F3n: C-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:06:03.110366-03:00",
+    "Detalle": "C\u00F3digo: 37050395, Ubicaci\u00F3n: C-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:06:16.7985185-03:00",
+    "Detalle": "C\u00F3digo: 37050049, Ubicaci\u00F3n: C-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:06:29.5955555-03:00",
+    "Detalle": "C\u00F3digo: 37050004, Ubicaci\u00F3n: C-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:06:40.1124668-03:00",
+    "Detalle": "C\u00F3digo: 37050045, Ubicaci\u00F3n: C-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:07:00.9102968-03:00",
+    "Detalle": "C\u00F3digo: 37050394, Ubicaci\u00F3n: C-0-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:07:17.6451868-03:00",
+    "Detalle": "C\u00F3digo: 37050000, Ubicaci\u00F3n: C-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:07:26.9890954-03:00",
+    "Detalle": "C\u00F3digo: 37050002, Ubicaci\u00F3n: C-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:07:36.0204651-03:00",
+    "Detalle": "C\u00F3digo: 37050001, Ubicaci\u00F3n: C-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:07:49.9586644-03:00",
+    "Detalle": "C\u00F3digo: 37050394, Ubicaci\u00F3n: C-0-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:08:02.7713271-03:00",
+    "Detalle": "C\u00F3digo: 37050000, Ubicaci\u00F3n: C-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:08:10.943316-03:00",
+    "Detalle": "C\u00F3digo: 37050016, Ubicaci\u00F3n: C-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T10:08:19.1621691-03:00",
+    "Detalle": "C\u00F3digo: 37050006, Ubicaci\u00F3n: C-1-0"
+  },
+  {
+    "Usuario": "nicolas.ruotolo",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T11:11:59.7164204-03:00",
+    "Detalle": "C\u00F3digo: 26030714, Ubicaci\u00F3n: A-0-8"
+  },
+  {
+    "Usuario": "Invitado",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T11:47:14.7700823-03:00",
+    "Detalle": "C\u00F3digo: 26033160, Ubicaci\u00F3n: A-0-7"
+  },
+  {
+    "Usuario": "Invitado",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T11:47:30.6140231-03:00",
+    "Detalle": "C\u00F3digo: 26035872, Ubicaci\u00F3n: A-0-7"
+  },
+  {
+    "Usuario": "emanuel.martinez",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T13:29:28.8698455-03:00",
+    "Detalle": "C\u00F3digo: 26036615, Ubicaci\u00F3n: A-1-6"
+  },
+  {
+    "Usuario": "emanuel.martinez",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-13T13:32:32.6264562-03:00",
+    "Detalle": "C\u00F3digo: 26035317, Ubicaci\u00F3n: A-1-1"
+  },
+  {
+    "Usuario": "emanuel.martinez",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-13T13:32:34.6587168-03:00",
+    "Detalle": "C\u00F3digo: 26033675, Ubicaci\u00F3n: A-1-1"
+  },
+  {
+    "Usuario": "nicolas.ruotolo",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-13T13:36:05.3705735-03:00",
+    "Detalle": "C\u00F3digo: 26035317, Ubicaci\u00F3n: B-1-2"
+  },
+  {
+    "Usuario": "nicolas.ruotolo",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-13T13:36:20.8242902-03:00",
+    "Detalle": "C\u00F3digo: 26035317, Ubicaci\u00F3n: B-1-8"
+  },
+  {
+    "Usuario": "emanuel.martinez",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T13:53:20.9603171-03:00",
+    "Detalle": "C\u00F3digo: 26035317, Ubicaci\u00F3n: B-0-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:12:37.4062966-03:00",
+    "Detalle": "C\u00F3digo: 26037875, Ubicaci\u00F3n: B-0-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:12:48.6259509-03:00",
+    "Detalle": "C\u00F3digo: 29802947, Ubicaci\u00F3n: B-0-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:17:19.6681801-03:00",
+    "Detalle": "C\u00F3digo: 26035872, Ubicaci\u00F3n: B-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:17:38.9658143-03:00",
+    "Detalle": "C\u00F3digo: 26031362, Ubicaci\u00F3n: B-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:19:44.2814681-03:00",
+    "Detalle": "C\u00F3digo: 26031257, Ubicaci\u00F3n: B-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:19:59.6743202-03:00",
+    "Detalle": "C\u00F3digo: 29916829, Ubicaci\u00F3n: B-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:23:14.5554011-03:00",
+    "Detalle": "C\u00F3digo: 26035660, Ubicaci\u00F3n: A-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:23:26.2590532-03:00",
+    "Detalle": "C\u00F3digo: 26035686, Ubicaci\u00F3n: A-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:26:14.4680772-03:00",
+    "Detalle": "C\u00F3digo: 26036615, Ubicaci\u00F3n: B-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:26:28.2970141-03:00",
+    "Detalle": "C\u00F3digo: 26032563, Ubicaci\u00F3n: B-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:28:48.7237594-03:00",
+    "Detalle": "C\u00F3digo: 29915342, Ubicaci\u00F3n: B-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:29:00.8020219-03:00",
+    "Detalle": "C\u00F3digo: 29914613, Ubicaci\u00F3n: B-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:29:14.0523384-03:00",
+    "Detalle": "C\u00F3digo: 26037867, Ubicaci\u00F3n: B-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:32:17.9673108-03:00",
+    "Detalle": "C\u00F3digo: 29917051, Ubicaci\u00F3n: A-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:32:28.6085696-03:00",
+    "Detalle": "C\u00F3digo: 26031265, Ubicaci\u00F3n: A-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:32:41.203721-03:00",
+    "Detalle": "C\u00F3digo: 26030650, Ubicaci\u00F3n: A-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-13T14:34:41.0350995-03:00",
+    "Detalle": "C\u00F3digo: 26031109, Ubicaci\u00F3n: A-0-4"
+  },
+  {
+    "Usuario": "stephany.quintian",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-13T15:52:27.4819027-03:00",
+    "Detalle": "C\u00F3digo: 29912769, Ubicaci\u00F3n: A-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:16:34.4025645-03:00",
+    "Detalle": "C\u00F3digo: 26031311, Ubicaci\u00F3n: D-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:16:53.3101526-03:00",
+    "Detalle": "C\u00F3digo: 29912050, Ubicaci\u00F3n: D-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:17:06.1076414-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: D-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:17:18.2019514-03:00",
+    "Detalle": "C\u00F3digo: 29801002, Ubicaci\u00F3n: D-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:17:37.1240823-03:00",
+    "Detalle": "C\u00F3digo: 29804060, Ubicaci\u00F3n: D-0-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:17:54.8913917-03:00",
+    "Detalle": "C\u00F3digo: 26035678, Ubicaci\u00F3n: D-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:18:04.7508359-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: D-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:18:15.2040901-03:00",
+    "Detalle": "C\u00F3digo: 20215070, Ubicaci\u00F3n: D-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:18:38.3299973-03:00",
+    "Detalle": "C\u00F3digo: 29918716, Ubicaci\u00F3n: D-0-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:18:47.6901356-03:00",
+    "Detalle": "C\u00F3digo: 10017371, Ubicaci\u00F3n: D-0-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:19:03.7841232-03:00",
+    "Detalle": "C\u00F3digo: 29912041, Ubicaci\u00F3n: D-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:19:17.9873982-03:00",
+    "Detalle": "C\u00F3digo: 26038260, Ubicaci\u00F3n: D-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:19:36.2544014-03:00",
+    "Detalle": "C\u00F3digo: 26031362, Ubicaci\u00F3n: D-0-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:19:56.4899911-03:00",
+    "Detalle": "C\u00F3digo: 29912050, Ubicaci\u00F3n: D-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:20:11.5058637-03:00",
+    "Detalle": "C\u00F3digo: 29912548, Ubicaci\u00F3n: D-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:20:23.334263-03:00",
+    "Detalle": "C\u00F3digo: 29800464, Ubicaci\u00F3n: D-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:20:47.4459534-03:00",
+    "Detalle": "C\u00F3digo: 26031265, Ubicaci\u00F3n: D-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:20:58.5868055-03:00",
+    "Detalle": "C\u00F3digo: 29913110, Ubicaci\u00F3n: D-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:21:09.5715513-03:00",
+    "Detalle": "C\u00F3digo: 26032660, Ubicaci\u00F3n: D-0-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:24:00.2791429-03:00",
+    "Detalle": "C\u00F3digo: 29912165, Ubicaci\u00F3n: D-1-7"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:24:18.5140574-03:00",
+    "Detalle": "C\u00F3digo: 26036240, Ubicaci\u00F3n: D-0-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:24:27.9515942-03:00",
+    "Detalle": "C\u00F3digo: 26036615, Ubicaci\u00F3n: D-0-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:24:36.4360765-03:00",
+    "Detalle": "C\u00F3digo: 29913048, Ubicaci\u00F3n: D-0-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:24:50.6248304-03:00",
+    "Detalle": "C\u00F3digo: 29912610, Ubicaci\u00F3n: D-1-6"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:25:13.8284475-03:00",
+    "Detalle": "C\u00F3digo: 20215283, Ubicaci\u00F3n: D-0-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:25:31.7192977-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: D-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:25:42.9082261-03:00",
+    "Detalle": "C\u00F3digo: 26033667, Ubicaci\u00F3n: D-1-5"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:25:57.8644023-03:00",
+    "Detalle": "C\u00F3digo: 10017365, Ubicaci\u00F3n: D-0-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:26:20.0995806-03:00",
+    "Detalle": "C\u00F3digo: 10017366, Ubicaci\u00F3n: D-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:26:27.6153162-03:00",
+    "Detalle": "C\u00F3digo: 10017365, Ubicaci\u00F3n: D-1-4"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:26:55.2893981-03:00",
+    "Detalle": "C\u00F3digo: 20215283, Ubicaci\u00F3n: D-0-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:28:31.0110808-03:00",
+    "Detalle": "C\u00F3digo: 29912815, Ubicaci\u00F3n: D-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:28:41.917471-03:00",
+    "Detalle": "C\u00F3digo: 20215453, Ubicaci\u00F3n: D-1-3"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:29:02.1064774-03:00",
+    "Detalle": "C\u00F3digo: 29918716, Ubicaci\u00F3n: D-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:29:12.6848851-03:00",
+    "Detalle": "C\u00F3digo: 26037867, Ubicaci\u00F3n: D-0-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:29:28.3725951-03:00",
+    "Detalle": "C\u00F3digo: 20215178, Ubicaci\u00F3n: D-1-2"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:29:45.9365381-03:00",
+    "Detalle": "C\u00F3digo: 29800464, Ubicaci\u00F3n: D-0-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:29:58.5931267-03:00",
+    "Detalle": "C\u00F3digo: 26030714, Ubicaci\u00F3n: D-0-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:30:08.7026258-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: D-0-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:30:26.0626055-03:00",
+    "Detalle": "C\u00F3digo: 29912050, Ubicaci\u00F3n: D-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:30:37.8439813-03:00",
+    "Detalle": "C\u00F3digo: 29912041, Ubicaci\u00F3n: D-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:30:52.0792523-03:00",
+    "Detalle": "C\u00F3digo: 20215070, Ubicaci\u00F3n: D-0-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:31:01.2356449-03:00",
+    "Detalle": "C\u00F3digo: 20215283, Ubicaci\u00F3n: D-0-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:31:18.2364084-03:00",
+    "Detalle": "C\u00F3digo: 29912610, Ubicaci\u00F3n: D-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:31:29.4713279-03:00",
+    "Detalle": "C\u00F3digo: 29912564, Ubicaci\u00F3n: D-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:31:49.0503639-03:00",
+    "Detalle": "C\u00F3digo: 29912726, Ubicaci\u00F3n: D-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:32:44.834453-03:00",
+    "Detalle": "C\u00F3digo: 29912343, Ubicaci\u00F3n: E-0-23"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:32:54.006857-03:00",
+    "Detalle": "C\u00F3digo: 29913048, Ubicaci\u00F3n: E-0-23"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:33:02.694473-03:00",
+    "Detalle": "C\u00F3digo: 29913056, Ubicaci\u00F3n: E-0-23"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:38:54.3032121-03:00",
+    "Detalle": "C\u00F3digo: 26032350, Ubicaci\u00F3n: E-1-23"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:39:08.8190238-03:00",
+    "Detalle": "C\u00F3digo: 29802947, Ubicaci\u00F3n: E-1-23"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:39:18.8358298-03:00",
+    "Detalle": "C\u00F3digo: 26031311, Ubicaci\u00F3n: E-1-23"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:39:29.4457377-03:00",
+    "Detalle": "C\u00F3digo: 29912610, Ubicaci\u00F3n: E-1-23"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:39:55.5876389-03:00",
+    "Detalle": "C\u00F3digo: 10017371, Ubicaci\u00F3n: E-0-22"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:40:13.9941188-03:00",
+    "Detalle": "C\u00F3digo: 26030650, Ubicaci\u00F3n: E-1-22"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:40:24.2911851-03:00",
+    "Detalle": "C\u00F3digo: 10019513, Ubicaci\u00F3n: E-1-22"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:40:32.4787377-03:00",
+    "Detalle": "C\u00F3digo: 26036666, Ubicaci\u00F3n: E-1-22"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:41:11.2924468-03:00",
+    "Detalle": "C\u00F3digo: 26032768, Ubicaci\u00F3n: E-0-21"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:41:21.2145341-03:00",
+    "Detalle": "C\u00F3digo: 26033160, Ubicaci\u00F3n: E-0-21"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:41:32.355987-03:00",
+    "Detalle": "C\u00F3digo: 26032768, Ubicaci\u00F3n: E-0-21"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:41:47.2028269-03:00",
+    "Detalle": "C\u00F3digo: 26035260, Ubicaci\u00F3n: E-1-21"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:42:01.094192-03:00",
+    "Detalle": "C\u00F3digo: 10002886, Ubicaci\u00F3n: E-1-21"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:42:34.1883269-03:00",
+    "Detalle": "C\u00F3digo: 26033667, Ubicaci\u00F3n: E-0-20"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:42:54.8615085-03:00",
+    "Detalle": "C\u00F3digo: 26030641, Ubicaci\u00F3n: E-0-20"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:43:06.3621159-03:00",
+    "Detalle": "C\u00F3digo: 26031257, Ubicaci\u00F3n: E-0-20"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T10:43:25.5498926-03:00",
+    "Detalle": "C\u00F3digo: 26030714, Ubicaci\u00F3n: E-1-20"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:50:25.5074998-03:00",
+    "Detalle": "C\u00F3digo: 26050642, Ubicaci\u00F3n: E-0-19"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:50:36.7888732-03:00",
+    "Detalle": "C\u00F3digo: 26036240, Ubicaci\u00F3n: E-0-19"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:50:55.0082066-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: E-1-19"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:51:06.2900769-03:00",
+    "Detalle": "C\u00F3digo: 26037166, Ubicaci\u00F3n: E-1-19"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:51:17.805762-03:00",
+    "Detalle": "C\u00F3digo: 26032563, Ubicaci\u00F3n: E-1-19"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:51:29.2747514-03:00",
+    "Detalle": "C\u00F3digo: 26031311, Ubicaci\u00F3n: E-1-19"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:51:50.5424423-03:00",
+    "Detalle": "C\u00F3digo: 10017365, Ubicaci\u00F3n: E-0-18"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:52:09.0269916-03:00",
+    "Detalle": "C\u00F3digo: 29912343, Ubicaci\u00F3n: E-1-18"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:52:28.8871089-03:00",
+    "Detalle": "C\u00F3digo: 26031311, Ubicaci\u00F3n: E-0-17"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:52:38.3873991-03:00",
+    "Detalle": "C\u00F3digo: 29911819, Ubicaci\u00F3n: E-0-17"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:52:57.9516746-03:00",
+    "Detalle": "C\u00F3digo: 10017367, Ubicaci\u00F3n: E-1-17"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:53:07.8270011-03:00",
+    "Detalle": "C\u00F3digo: 10017376, Ubicaci\u00F3n: E-1-17"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:53:29.624116-03:00",
+    "Detalle": "C\u00F3digo: 29915814, Ubicaci\u00F3n: E-0-16"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:53:48.7661515-03:00",
+    "Detalle": "C\u00F3digo: 29800464, Ubicaci\u00F3n: E-1-16"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:54:01.6412884-03:00",
+    "Detalle": "C\u00F3digo: 26030714, Ubicaci\u00F3n: E-1-16"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:54:12.5476693-03:00",
+    "Detalle": "C\u00F3digo: 29912556, Ubicaci\u00F3n: E-1-16"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:54:32.4239429-03:00",
+    "Detalle": "C\u00F3digo: 26038189, Ubicaci\u00F3n: E-0-15"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:54:48.8158347-03:00",
+    "Detalle": "C\u00F3digo: 29913110, Ubicaci\u00F3n: E-1-15"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:55:03.6447264-03:00",
+    "Detalle": "C\u00F3digo: 29915334, Ubicaci\u00F3n: E-1-15"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:55:15.4261225-03:00",
+    "Detalle": "C\u00F3digo: 20215046, Ubicaci\u00F3n: E-1-15"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:55:27.7075209-03:00",
+    "Detalle": "C\u00F3digo: 26033675, Ubicaci\u00F3n: E-1-15"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:55:38.2399046-03:00",
+    "Detalle": "C\u00F3digo: 29917051, Ubicaci\u00F3n: E-1-15"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:56:20.9293158-03:00",
+    "Detalle": "C\u00F3digo: 29915342, Ubicaci\u00F3n: E-0-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:56:36.6013864-03:00",
+    "Detalle": "C\u00F3digo: 37050027, Ubicaci\u00F3n: E-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:56:45.6335295-03:00",
+    "Detalle": "C\u00F3digo: 37050026, Ubicaci\u00F3n: E-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:57:02.6025206-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: E-0-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:57:19.0870775-03:00",
+    "Detalle": "C\u00F3digo: 37050027, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:57:44.4157379-03:00",
+    "Detalle": "C\u00F3digo: 29915342, Ubicaci\u00F3n: E-0-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:57:52.5100031-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: E-0-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:57:56.9319679-03:00",
+    "Detalle": "C\u00F3digo: 37050027, Ubicaci\u00F3n: E-1-1"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:58:02.5111016-03:00",
+    "Detalle": "C\u00F3digo: 37050027, Ubicaci\u00F3n: E-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:58:04.8861358-03:00",
+    "Detalle": "C\u00F3digo: 37050026, Ubicaci\u00F3n: E-1-0"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T13:59:58.7667353-03:00",
+    "Detalle": "C\u00F3digo: 10019512, Ubicaci\u00F3n: E-0-14"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:00:19.0794109-03:00",
+    "Detalle": "C\u00F3digo: 29912041, Ubicaci\u00F3n: E-0-14"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:00:28.00145-03:00",
+    "Detalle": "C\u00F3digo: 29912343, Ubicaci\u00F3n: E-0-14"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:01:05.8950009-03:00",
+    "Detalle": "C\u00F3digo: 100017375, Ubicaci\u00F3n: E-1-14"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:01:15.0672472-03:00",
+    "Detalle": "C\u00F3digo: 100017377, Ubicaci\u00F3n: E-1-14"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:01:29.09871-03:00",
+    "Detalle": "C\u00F3digo: 26031362, Ubicaci\u00F3n: E-0-13"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:01:44.0999598-03:00",
+    "Detalle": "C\u00F3digo: 26036089, Ubicaci\u00F3n: E-0-13"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:02:01.5851535-03:00",
+    "Detalle": "C\u00F3digo: 26033667, Ubicaci\u00F3n: E-0-13"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:02:20.6483794-03:00",
+    "Detalle": "C\u00F3digo: 26035678, Ubicaci\u00F3n: E-1-13"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:02:47.7441952-03:00",
+    "Detalle": "C\u00F3digo: 20215283, Ubicaci\u00F3n: E-0-12"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:02:57.6349663-03:00",
+    "Detalle": "C\u00F3digo: 20215070, Ubicaci\u00F3n: E-0-12"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:03:07.4006901-03:00",
+    "Detalle": "C\u00F3digo: 29912050, Ubicaci\u00F3n: E-0-12"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:03:16.6352535-03:00",
+    "Detalle": "C\u00F3digo: 29918716, Ubicaci\u00F3n: E-0-12"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:03:26.9010392-03:00",
+    "Detalle": "C\u00F3digo: 100019513, Ubicaci\u00F3n: E-0-12"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:03:36.8855098-03:00",
+    "Detalle": "C\u00F3digo: 29804060, Ubicaci\u00F3n: E-0-12"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:03:50.8863623-03:00",
+    "Detalle": "C\u00F3digo: 26037573, Ubicaci\u00F3n: E-0-12"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:04:08.2303307-03:00",
+    "Detalle": "C\u00F3digo: 29912041, Ubicaci\u00F3n: E-1-12"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:04:17.7306951-03:00",
+    "Detalle": "C\u00F3digo: 29917647, Ubicaci\u00F3n: E-1-12"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:04:38.279126-03:00",
+    "Detalle": "C\u00F3digo: 26031311, Ubicaci\u00F3n: E-0-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:04:58.9513616-03:00",
+    "Detalle": "C\u00F3digo: 37050068, Ubicaci\u00F3n: E-1-11"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:05:14.8430401-03:00",
+    "Detalle": "C\u00F3digo: 20215453, Ubicaci\u00F3n: E-0-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:05:32.3433815-03:00",
+    "Detalle": "C\u00F3digo: 26032318, Ubicaci\u00F3n: E-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T14:05:44.8287631-03:00",
+    "Detalle": "C\u00F3digo: 29911169, Ubicaci\u00F3n: E-1-10"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:09:47.758689-03:00",
+    "Detalle": "C\u00F3digo: 26036666, Ubicaci\u00F3n: E-0-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:10:28.4312424-03:00",
+    "Detalle": "C\u00F3digo: 100017375, Ubicaci\u00F3n: E-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:10:38.4157364-03:00",
+    "Detalle": "C\u00F3digo: 26033250, Ubicaci\u00F3n: E-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:10:49.6831969-03:00",
+    "Detalle": "C\u00F3digo: 26035066, Ubicaci\u00F3n: E-1-9"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:11:09.4807338-03:00",
+    "Detalle": "C\u00F3digo: 26037107, Ubicaci\u00F3n: E-0-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:11:29.887229-03:00",
+    "Detalle": "C\u00F3digo: 26031362, Ubicaci\u00F3n: E-0-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:11:45.2637741-03:00",
+    "Detalle": "C\u00F3digo: 26036747, Ubicaci\u00F3n: E-0-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:12:03.2487271-03:00",
+    "Detalle": "C\u00F3digo: 26036666, Ubicaci\u00F3n: E-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:12:17.6081863-03:00",
+    "Detalle": "C\u00F3digo: 29803803, Ubicaci\u00F3n: E-1-8"
+  },
+  {
+    "Usuario": "christian.luberiaga",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-15T16:12:35.6401367-03:00",
+    "Detalle": "C\u00F3digo: 26035058, Ubicaci\u00F3n: E-1-8"
+  },
+  {
+    "Usuario": "sicarde.fernando",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-17T22:44:03.200105-03:00",
+    "Detalle": "C\u00F3digo: test, Ubicaci\u00F3n: E-2-8"
+  },
+  {
+    "Usuario": "sicarde.fernando",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-17T22:44:19.30517-03:00",
+    "Detalle": "C\u00F3digo: test, Ubicaci\u00F3n: E-2-8"
+  },
+  {
+    "Usuario": "sicarde.fernando",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-17T22:49:00.6253327-03:00",
+    "Detalle": "C\u00F3digo: 123, Ubicaci\u00F3n: E-0-5"
+  },
+  {
+    "Usuario": "sicarde.fernando",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-17T22:49:10.0697885-03:00",
+    "Detalle": "C\u00F3digo: 123, Ubicaci\u00F3n: E-0-5"
+  },
+  {
+    "Usuario": "sicarde.fernando",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-17T22:49:23.5055526-03:00",
+    "Detalle": "C\u00F3digo: test, Ubicaci\u00F3n: H-0-20"
+  },
+  {
+    "Usuario": "sicarde.fernando",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-17T22:49:33.8434555-03:00",
+    "Detalle": "C\u00F3digo: test, Ubicaci\u00F3n: H-0-20"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Agregar C\u00F3digo",
+    "FechaHora": "2025-08-17T23:09:26.9076204-03:00",
+    "Detalle": "C\u00F3digo: 123, Ubicaci\u00F3n: F-0-3"
+  },
+  {
+    "Usuario": "admin",
+    "Accion": "Eliminar C\u00F3digo",
+    "FechaHora": "2025-08-17T23:09:41.6428086-03:00",
+    "Detalle": "C\u00F3digo: 123, Ubicaci\u00F3n: F-0-3"
+  }
+]

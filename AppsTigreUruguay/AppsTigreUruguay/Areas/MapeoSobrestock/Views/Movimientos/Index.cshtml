@@ -1,0 +1,36 @@
+﻿@model List<AppsTigreUruguay.Areas.MapeoSobrestock.Models.MovimientoUsuario>
+
+@{
+    ViewData["Title"] = "Registro de Movimientos";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Model == null || Model.Count == 0)
+{
+    <p>No hay movimientos registrados.</p>
+}
+else
+{
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Usuario</th>
+                <th>Acción</th>
+                <th>Detalle</th>
+                <th>Fecha y Hora</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movimiento in Model)
+            {
+                <tr>
+                    <td>@movimiento.Usuario</td>
+                    <td>@movimiento.Accion</td>
+                    <td>@movimiento.Detalle</td>
+                    <td>@movimiento.FechaHora.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

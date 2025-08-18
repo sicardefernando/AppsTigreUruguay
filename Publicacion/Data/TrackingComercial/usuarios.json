@@ -1,0 +1,14 @@
+[
+  {
+    "UsuarioNombre": "admin",
+    "Clave": "123"
+  },
+  {
+    "UsuarioNombre": "fertest",
+    "Clave": "123"
+  },
+  {
+    "UsuarioNombre": "fer",
+    "Clave": "123"
+  }
+]

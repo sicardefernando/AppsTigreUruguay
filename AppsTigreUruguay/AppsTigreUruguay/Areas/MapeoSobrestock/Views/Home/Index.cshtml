@@ -1,0 +1,305 @@
+﻿@model AppsTigreUruguay.Areas.MapeoSobrestock.Models.VistaPrincipalViewModel
+@using System.Text.Json
+@{
+    ViewData["Title"] = "Mapa de Sobrestock";
+    var ubicacionesJson = JsonSerializer.Serialize(Model.UbicacionesProductos);
+}
+
+<main>
+    <div>
+        @Html.AntiForgeryToken()
+
+        <div style="margin-bottom: 15px;">
+            <input type="text" id="inputBuscarCodigo" placeholder="Buscar código de producto..." style="width:100%; padding:8px;" />
+            <button id="btnBuscarCodigo" style="width:auto; padding:8px; margin-top:5px;">Buscar</button>
+        </div>
+
+        <h1>Pasillos</h1>
+        <div class="divPasillos">
+            @foreach (var pasillo in Model.Pasillos)
+            {
+                var distribucionJson = JsonSerializer.Serialize(pasillo.distribucion);
+                var nomColumnasJson = JsonSerializer.Serialize(pasillo.nomColumnas);
+                        <button class="clasePasillo" id="btn_@pasillo.nombrePasillo"
+                                data-distribucion='@distribucionJson'
+                                data-pasillo='@pasillo.nombrePasillo'
+                                data-nomcolumnas='@nomColumnasJson'>
+                    @pasillo.nombrePasillo
+                        </button>
+            }
+        </div>
+
+        <h2 id="tituloPasilloSeleccionado" style="margin-top: 20px;">Seleccione un pasillo</h2>
+        <div style="overflow-x:auto; -webkit-overflow-scrolling: touch; width: 100%;">
+            <div class="displayEstante" style="min-width: 600px;"></div>
+        </div>
+    </div>
+
+    <div id="modalProductos" class="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5);">
+        <div style="background:#fff; width:300px; margin:100px auto; padding:20px; border-radius:8px; position:relative;">
+            <h2>Productos en la celda:</h2>
+            <ul id="listaProductos" style="max-height:200px; overflow-y:auto; padding-left:0; font-weight:bold;"></ul>
+            <input type="text" id="inputNuevoCodigo" placeholder="Nuevo código producto" style="width:100%; margin-top:10px; padding:5px;" />
+            <button id="btnAgregarCodigo" style="margin-top:10px;">Agregar código</button>
+            <button id="btnScanEnModal" style="margin-top:10px;">Escanear con cámara</button>
+            <div id="readerModal" style="width:300px; height:300px; display:none; margin-top:15px;"></div>
+            <button id="btnCerrarModal" style="position:absolute; top:10px; right:10px;">X</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/html5-qrcode"></script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        let codigoActualBuscado = '';
+        const modal = document.getElementById('modalProductos');
+        const listaProductos = document.getElementById('listaProductos');
+        const inputNuevoCodigo = document.getElementById('inputNuevoCodigo');
+        const btnAgregarCodigo = document.getElementById('btnAgregarCodigo');
+        const btnCerrarModal = document.getElementById('btnCerrarModal');
+        const btnScanEnModal = document.getElementById('btnScanEnModal');
+        const readerModal = document.getElementById('readerModal');
+
+        let ubicaciones = @Html.Raw(ubicacionesJson);
+        let posicionActual = null;
+
+        let html5QrModal = null;
+
+        // ---------- Modal ----------
+        function abrirModal(posicion) {
+            posicionActual = posicion;
+            actualizarLista();
+            inputNuevoCodigo.value = '';
+            modal.style.display = 'block';
+        }
+
+        function cerrarModal() {
+            modal.style.display = 'none';
+            if (html5QrModal) html5QrModal.stop().then(()=> readerModal.style.display='none').catch(()=>{});
+        }
+
+        btnCerrarModal.addEventListener('click', () => {
+            if (posicionActual) {
+                const pasillo = posicionActual.split('-')[0];
+                if (pasillo) localStorage.setItem('pasilloActivo', pasillo);
+            }
+            cerrarModal();
+            location.reload();
+        });
+
+        function actualizarLista() {
+            listaProductos.innerHTML = '';
+            const codigos = ubicaciones.filter(u => u.Ubicacion === posicionActual).map(u => u.CodigoProducto);
+            if (codigos.length === 0) {
+                listaProductos.innerHTML = '<li>No hay códigos en esta celda.</li>';
+            } else {
+                codigos.forEach(codigo => {
+                    const li = document.createElement('li');
+                    li.style.marginBottom = '8px';
+                    const span = document.createElement('span');
+                    span.textContent = codigo;
+                    const btnEliminar = document.createElement('button');
+                    btnEliminar.textContent = 'Eliminar';
+                    btnEliminar.style.marginLeft = '10px';
+                    btnEliminar.addEventListener('click', () => eliminarCodigo(posicionActual, codigo));
+                    li.appendChild(span);
+                    li.appendChild(btnEliminar);
+                    listaProductos.appendChild(li);
+                });
+            }
+        }
+
+        btnAgregarCodigo.addEventListener('click', () => {
+            const nuevoCodigo = inputNuevoCodigo.value.trim();
+            if (!nuevoCodigo) return alert('Ingrese un código válido');
+            agregarCodigo(posicionActual, nuevoCodigo);
+        });
+
+        function agregarCodigo(ubicacion, codigoProducto) {
+            fetch('@Url.Action("AgregarCodigo", "Home")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                },
+                body: JSON.stringify({ Ubicacion: ubicacion, CodigoProducto: codigoProducto })
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.success) {
+                    ubicaciones.push({ Ubicacion: ubicacion, CodigoProducto: codigoProducto });
+                    actualizarLista();
+                    inputNuevoCodigo.value = '';
+                } else alert('No se pudo agregar el código.');
+            })
+            .catch(err => alert(err.message));
+        }
+
+        function eliminarCodigo(ubicacion, codigoProducto) {
+            if (!confirm(`Eliminar código ${codigoProducto} de la celda ${ubicacion}?`)) return;
+            fetch('@Url.Action("EliminarCodigo", "Home")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                },
+                body: JSON.stringify({ Ubicacion: ubicacion, CodigoProducto: codigoProducto })
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.success) {
+                    ubicaciones = ubicaciones.filter(u => !(u.Ubicacion === ubicacion && u.CodigoProducto === codigoProducto));
+                    actualizarLista();
+                } else alert('No se pudo eliminar el código.');
+            })
+            .catch(err => alert(err.message));
+        }
+
+        // ---------- Botones pasillo ----------
+        function initPasillos() {
+            document.querySelectorAll('.clasePasillo').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const pasillo = btn.getAttribute('data-pasillo');
+                    const distribucion = JSON.parse(btn.getAttribute('data-distribucion'));
+                    const nomColumnas = JSON.parse(btn.getAttribute('data-nomcolumnas'));
+                    desplegarEstante(pasillo, distribucion, nomColumnas);
+                    localStorage.setItem('pasilloActivo', pasillo);
+                });
+            });
+        }
+
+        // ---------- Función para desplegar estante ----------
+        function desplegarEstante(nombrePasillo, distribucion, nomColumnas) {
+            document.getElementById('tituloPasilloSeleccionado').textContent = "Pasillo seleccionado: " + nombrePasillo;
+            const displayEstante = document.querySelector(".displayEstante");
+            displayEstante.innerHTML = "";
+
+            const filas = distribucion.length;
+            const columnas = distribucion[0].length;
+
+            displayEstante.style.display = "grid";
+            displayEstante.style.gridTemplateColumns = `repeat(${columnas}, 1fr)`;
+            displayEstante.style.gridTemplateRows = `auto repeat(${filas}, 1fr)`;
+            displayEstante.style.gap = "10px";
+
+            // Encabezados
+            for (let c = 0; c < columnas; c++) {
+                const encabezado = document.createElement("div");
+                encabezado.textContent = nomColumnas[c];
+                encabezado.style.fontWeight = "bold";
+                encabezado.style.textAlign = "center";
+                encabezado.style.borderBottom = "2px solid black";
+                displayEstante.appendChild(encabezado);
+            }
+
+            // Celdas
+            for (let i = 0; i < filas; i++) {
+                for (let j = 0; j < columnas; j++) {
+                    const valor = distribucion[i][j];
+                    const tarjeta = document.createElement("button");
+                    const posicion = nombrePasillo + "-" + i + "-" + j;
+                    const productos = ubicaciones.filter(u => u.Ubicacion === posicion);
+
+                    tarjeta.className = "tarjetaEstante";
+
+                    if (codigoActualBuscado && productos.some(p => p.CodigoProducto.includes(codigoActualBuscado))) {
+                        tarjeta.classList.add('resaltado-celda');
+                    }
+
+                    if (valor === 0) {
+                        tarjeta.disabled = true;
+                        tarjeta.style.opacity = "0.5";
+                    } else {
+                        tarjeta.addEventListener("click", () => abrirModal(posicion));
+                    }
+
+                    const spanCodigos = document.createElement("span");
+                    spanCodigos.className = "contenido-codigos";
+                    spanCodigos.textContent = productos.map(p => p.CodigoProducto).join(', ');
+                    spanCodigos.title = spanCodigos.textContent;
+                    tarjeta.appendChild(spanCodigos);
+
+                    displayEstante.appendChild(tarjeta);
+                }
+            }
+        }
+
+        // ---------- Escaneo QR en modal ----------
+        btnScanEnModal.addEventListener('click', () => {
+            if(readerModal.style.display==='none') readerModal.style.display='block';
+            else { readerModal.style.display='none'; if(html5QrModal) html5QrModal.stop(); return; }
+
+            html5QrModal = new Html5Qrcode("readerModal");
+            Html5Qrcode.getCameras().then(cameras => {
+                if(cameras && cameras.length) {
+                    html5QrModal.start(
+                        { facingMode: "environment" },
+                        { fps: 10, qrbox: 250 },
+                        qrCodeMessage => {
+                            inputNuevoCodigo.value = qrCodeMessage;
+                            html5QrModal.stop().then(()=> readerModal.style.display='none');
+                        },
+                        errorMessage => {}
+                    ).catch(err=>console.error(err));
+                }
+            }).catch(err=>console.error(err));
+        });
+
+        // ---------- Inicializar pasillos ----------
+        initPasillos();
+        const pasilloGuardado = localStorage.getItem('pasilloActivo');
+        if(pasilloGuardado){
+            const btn = document.getElementById('btn_'+pasilloGuardado);
+            if(btn){
+                const distribucion = JSON.parse(btn.getAttribute('data-distribucion'));
+                const nomColumnas = JSON.parse(btn.getAttribute('data-nomcolumnas'));
+                desplegarEstante(pasilloGuardado, distribucion, nomColumnas);
+            }
+        }
+
+        // ---------- Buscar código ----------
+        const btnBuscarCodigo = document.getElementById('btnBuscarCodigo');
+        const inputBuscarCodigo = document.getElementById('inputBuscarCodigo');
+
+        btnBuscarCodigo.addEventListener('click', () => {
+            const codigoBuscado = inputBuscarCodigo.value.trim();
+            if (!codigoBuscado) return alert('Ingrese un código para buscar');
+
+            // Guardamos el código para resaltar
+            codigoActualBuscado = codigoBuscado;
+
+            // 1. Limpiar resaltado anterior en pasillos
+            document.querySelectorAll('.clasePasillo').forEach(btn => {
+                btn.classList.remove('resaltado-pasillo');
+            });
+
+            // 2. Buscar pasillos que contienen el código
+            let pasillosConCodigo = new Set();
+            ubicaciones.forEach(u => {
+                if (u.CodigoProducto.includes(codigoActualBuscado)) {
+                    const pasillo = u.Ubicacion.split('-')[0];
+                    pasillosConCodigo.add(pasillo);
+                }
+            });
+
+            // 3. Resaltar botones de esos pasillos
+            pasillosConCodigo.forEach(pasillo => {
+                const btnPasillo = document.getElementById('btn_' + pasillo);
+                if (btnPasillo) btnPasillo.classList.add('resaltado-pasillo');
+            });
+
+            // 4. Si hay un pasillo activo, redibujar sus celdas resaltadas
+            const pasilloGuardado = localStorage.getItem('pasilloActivo');
+            if (pasilloGuardado) {
+                const btnPasillo = document.getElementById('btn_' + pasilloGuardado);
+                if (btnPasillo) {
+                    const distribucion = JSON.parse(btnPasillo.getAttribute('data-distribucion'));
+                    const nomColumnas = JSON.parse(btnPasillo.getAttribute('data-nomcolumnas'));
+                    desplegarEstante(pasilloGuardado, distribucion, nomColumnas);
+                }
+            }
+        });
+    });
+    </script>
+</main>
