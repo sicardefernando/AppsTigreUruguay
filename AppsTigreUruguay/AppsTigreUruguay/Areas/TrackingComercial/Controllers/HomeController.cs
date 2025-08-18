@@ -32,7 +32,6 @@ namespace AppsTigreUruguay.Areas.TrackingComercial.Controllers
         [HttpPost]
         public IActionResult Login(string usuario, string clave)
         {
-            // Ruta al archivo usuarios.json
             var rutaJson = Path.Combine(Directory.GetCurrentDirectory(), "Data", "TrackingComercial", "usuarios.json");
 
             if (!System.IO.File.Exists(rutaJson))
@@ -57,7 +56,10 @@ namespace AppsTigreUruguay.Areas.TrackingComercial.Controllers
                 return View();
             }
 
-            var encontrado = usuarios?.FirstOrDefault(u => u.UsuarioNombre == usuario && u.Clave == clave);
+            // Comparación case-insensitive
+            var encontrado = usuarios?.FirstOrDefault(u =>
+                u.UsuarioNombre.Equals(usuario, StringComparison.OrdinalIgnoreCase) &&
+                u.Clave == clave);
 
             if (encontrado != null)
             {
@@ -68,6 +70,7 @@ namespace AppsTigreUruguay.Areas.TrackingComercial.Controllers
             ViewBag.Error = "Usuario o clave incorrectos.";
             return View();
         }
+
 
 
         [HttpGet]
@@ -110,7 +113,8 @@ namespace AppsTigreUruguay.Areas.TrackingComercial.Controllers
                 }
             }
 
-            if (usuarios.Any(u => u.UsuarioNombre == usuario))
+            // Comparación case-insensitive
+            if (usuarios.Any(u => u.UsuarioNombre.Equals(usuario, StringComparison.OrdinalIgnoreCase)))
             {
                 ViewBag.Error = "El usuario ya existe.";
                 return View();
@@ -132,6 +136,7 @@ namespace AppsTigreUruguay.Areas.TrackingComercial.Controllers
             ViewBag.Mensaje = "Usuario registrado con éxito. Ahora puede iniciar sesión.";
             return View();
         }
+
 
 
         public IActionResult Logout()
