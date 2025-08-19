@@ -18,10 +18,11 @@
             </div>
             <div class="col-md-4">
                 <label for="cliente_select" class="form-label">Seleccionar cliente:</label>
-                <select name="cliente" asp-items="(SelectList)ViewBag.Clientes" id="cliente_select" class="form-select" size="5" required></select>
+                <select name="cliente" asp-items="(SelectList)ViewBag.Clientes" id="cliente_select" class="selectpicker w-100"  data-size="5" data-width="100%" required></select>
             </div>
-            <div class="col-md-4 d-flex align-items-end">
-                <button type="submit" class="btn btn-primary w-100">Generar reporte</button>
+            <div class="col-md-4 align-items-center">
+                <label for="btnGenerarReporte" class="form-label">Reporte:</label>
+                <button type="submit" class="btn btn-primary w-100" id="btnGenerarReporte">Generar reporte</button>
             </div>
         </div>
     </form>
