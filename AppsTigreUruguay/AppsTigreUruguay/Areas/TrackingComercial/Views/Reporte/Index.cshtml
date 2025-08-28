@@ -54,8 +54,8 @@
                         var porcentajeClass = fila.Porcentaje > 0 ? "text-success" : (fila.Porcentaje < 0 ? "text-danger" : "text-muted");
                         <tr class="@clase">
                             <td>@Html.Raw(fila.Producto)</td>
-                            <td>@String.Format("{0:N2}", fila.VentasAnioAnterior)</td>
-                            <td>@String.Format("{0:N2}", fila.VentasAnioActual)</td>
+                            <td>@String.Format("{0:N0}", fila.VentasAnioAnterior)</td>
+                            <td>@String.Format("{0:N0}", fila.VentasAnioActual)</td>
                             <td class="@porcentajeClass">@fila.Porcentaje %</td>
                         </tr>
                     }
@@ -71,8 +71,8 @@
                 <div class="card mb-3">
                     <div class="card-body">
                         <h5 class="card-title">@Html.Raw(fila.Producto)</h5>
-                        <p class="card-text mb-1"><strong>Ventas <span class="anioAnt"></span>:</strong> @String.Format("{0:N2}", fila.VentasAnioAnterior)</p>
-                        <p class="card-text mb-1"><strong>Ventas <span class="anioAct"></span>:</strong> @String.Format("{0:N2}", fila.VentasAnioActual)</p>
+                        <p class="card-text mb-1"><strong>Ventas <span class="anioAnt"></span>:</strong> @String.Format("{0:N0}", fila.VentasAnioAnterior)</p>
+                        <p class="card-text mb-1"><strong>Ventas <span class="anioAct"></span>:</strong> @String.Format("{0:N0}", fila.VentasAnioActual)</p>
                         <p class="card-text mb-0"><strong>% Crecimiento:</strong> <span class="@porcentajeClass">@fila.Porcentaje %</span></p>
                     </div>
                 </div>

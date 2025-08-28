@@ -46,7 +46,9 @@
                         AnioMes: row["MesAJ"],
                         Producto: row["LE"],
                         Cliente: row["CLIENTE2"],
-                        Venta: row["PRECIO USD"]
+                        Venta: row["PRECIO USD"],
+                        TC: row["T/C"],          // nueva columna
+                        VentaKg: row["Venta Kg"] // nueva columna
                     }));
 
                     self.postMessage({ jsonData });
@@ -55,6 +57,7 @@
                 }
             };
         `], { type: 'application/javascript' });
+
 
         const worker = new Worker(URL.createObjectURL(workerBlob));
 
